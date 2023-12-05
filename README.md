@@ -1,20 +1,13 @@
 # Desafio Técnico 1
-Desafio técnico 1 para a vaga de desenvolvedor backend da Escribo Inovação para o Aprendizado
 
-Descrição:
-- Implemente uma função que receba um número inteiro positivo e retorne o somatório de todos os valores
-inteiros divisíveis por 3 ou 5 que sejam inferiores ao número passado.
+## Descrição
 
-Exemplos:
-- Caso sua função receba o inteiro 10, ela deve retornar 23, resultante do somatório dos números 3, 5, 6 e
-9 que são menores que 10.
-- Caso sua função receba o inteiro 11, ela deve retornar 33, resultante do somatório dos números 3, 5, 6, 9
-e 10 que são menores que 11.
+Implementação em JavaScript de uma função que retorna o somatório de todos os valores inteiros divisíveis por 3 ou 5 que sejam inferiores ao número passado. 
 
-Instruções:
-- Sua função deve ser implementada em Dart ou em Javascript.
-- Sua implementação deve estar em um repositório público no Github.
-- Escreva um README no seu repositório com as instruções de como rodar o seu projeto e como
-podemos testá-lo.
-Prazo: 72 horas
-Envie sua resposta para o email jobs@escribo.com com o link do repositório.
+A função está contida no arquivo [script.js](./script.js) e é utilizada na implementação do arquivo [index.html](./index.html). O resultado foi hospedado no GitHub Pages para facilitar o acesso e teste.
+
+## Como usar
+
+1. Acesse o link https://anapppp.github.io/escribo-desafio-tecnico-1/
+
+2. Insira um valor inteiro positivo quando solicitado.

@@ -3,7 +3,7 @@ function somatorio(numero) {
     try {
         // verificando se o numero é inteiro e positivo
         if (numero <= 0 || numero % 1 !== 0) {
-            return 'Valor invalido. Insira um valor inteiro e miaor do que zero.'
+            return 'Valor invalido. Insira um valor inteiro e maior do que zero.'
         } else {
             // encontrando valores divisiveis por 3 e 5
             for (let i = numero - 1; i > 0; i--) {
@@ -11,7 +11,7 @@ function somatorio(numero) {
                     somatorio += i
                 }
             }
-            return somatorio
+            return `O somatorio dos valores divisiveis por 3 e 5 menores que ${numero} é: ${somatorio}`
         }
     } catch (erro) {
         console.log(erro)
@@ -19,5 +19,4 @@ function somatorio(numero) {
 }
 
 let numero = prompt("Digite um número inteiro e positivo:");
-const resultado = somatorio(numero);
-alert(`O somatorio dos valores divisiveis por 3 e 5 menores que ${numero} é: ${resultado}`);
+alert(somatorio(numero));
